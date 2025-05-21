@@ -2,7 +2,7 @@ from pathlib import Path
 from typing import List, Dict, Optional, Union
 
 from llama_index.core import (
-	VectoreStoreIndex,
+	VectorStoreIndex,
 	Document,
 	Settings,
 	StorageContext

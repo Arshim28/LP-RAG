@@ -16,7 +16,7 @@ REPORTS_DIR = DATA_DIR / "reports"
 PARSED_DIR = DATA_DIR / "parsed"
 INDEXES_DIR = DATA_DIR / "indexes"
 
-EMBEDDING_MODEl = "text-embedding-004"
+EMBEDDING_MODEL = "text-embedding-004"
 
 for dir_path in [DATA_DIR, REPORTS_DIR, PARSED_DIR, INDEXES_DIR]:
 	dir_path.mkdir(exist_ok=True, parents=True)

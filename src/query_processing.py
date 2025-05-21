@@ -65,7 +65,7 @@ class QueryProcessor:
 		retriever = self.index.as_retriever(similarity_top=top_k)
 		query_engine = self.index.as_query_engine(
 			llm=self.llm,
-			retirever=retriever,
+			retriever=retriever,
 		)
 
 		response = query_engine.query(query)
